@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ATM Login</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="atm-container">
+      <h1>ATM Login</h1>
+      <p id="message">Please enter your PIN</p>
+      <input
+        type="password"
+        id="pinInput"
+        maxlength="4"
+        placeholder="Enter 4-digit PIN"
+      />
+      <button onclick="validatePIN()">Login</button>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
