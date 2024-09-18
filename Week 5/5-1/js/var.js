@@ -1,12 +1,9 @@
 // Var, Let, Const - ES6 specification introduced let and const in 2015
 // The example below illustrates the behavior of 'var' and hoisting
 
-/* Hoisting refers to the process where the interpreter moves the declaration 
-of functions, variables, or classes to the top of their scope before the code is executed. 
-However, for variables declared with 'var', the declaration is hoisted but not the initialization. */
-
 // Declare a global variable using 'var'
-//var libraryName = "Hays Library"; // This variable has global scope because it's declared outside any function
+// This variable has global scope because it's declared outside any function
+var libraryName = "Hays Library";
 
 function checkBookAvailability() {
   // First, we log the global variable 'libraryName'
@@ -25,6 +22,10 @@ function checkBookAvailability() {
   var libraryName = "Wichita Library"; // Changes the global variable 'libraryName' from "Hays Library" to "Wichita Library"
   console.log(libraryName); // Output: Wichita Library
 
+  /* Hoisting refers to the process where the interpreter moves the declaration 
+  of functions, variables, or classes to the top of their scope before the code is executed. 
+  However, for variables declared with 'var', the declaration is hoisted but not the initialization. */
+
   // The following demonstrates 'hoisting' with 'var'
   // Even though 'author' is declared below, it is hoisted to the top of the function, but only the declaration is hoisted, not the assignment.
   console.log("Author: ", author); // Output: undefined (because 'var' declarations are hoisted, but the initialization 'author = "Sam"' hasn't happened yet)
@@ -37,3 +38,4 @@ function checkBookAvailability() {
 console.log(libraryName);
 // Call the function to execute the code
 checkBookAvailability();
+console.log(libraryName);

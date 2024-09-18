@@ -16,13 +16,13 @@ function buyTickets() {
 
   // Trying to access 'ticketPrice' here would result in an error because it is block-scoped
   // Uncommenting the next line would throw a ReferenceError: ticketPrice is not defined
-  // console.log(ticketPrice);  // Error: ticketPrice is not accessible outside the 'if' block
+  console.log(ticketPrice); // Error: ticketPrice is not accessible outside the 'if' block
 
   // Accessing 'festivalName' after reassignment
   console.log(festivalName); // Output: Thanks Giving
 
   // Uncommenting the next line would result in an error because 'bandName' is not hoisted
-  // console.log(bandName);  // Error: Cannot access 'bandName' before initialization
+  console.log(bandName); // Error: Cannot access 'bandName' before initialization
 
   let bandName = "The RockStars"; // Block-scoped variable
   console.log(`Band performed is: ${bandName}`); // Output: Band performed is: The RockStars
@@ -33,3 +33,4 @@ console.log(festivalName); // Output: October Fest
 
 // Call the function to execute the code
 buyTickets();
+console.log(festivalName);
