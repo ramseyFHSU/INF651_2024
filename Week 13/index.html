@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- NavBar -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3">
+      <div class="container">
+        <a href="#" class="navbar-brand">Tigers Club</a>
+        <button
+          class="navbar-toggler ml-auto"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler ml-auto"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Current Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#developers">Developers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- showcase -->
+    <section class="bg-dark text-light text-center text-sm-start p-5">
+      <div class="container">
+        <div class="d-sm-flex align-items-center justify-content-between">
+          <div>
+            <h1>
+              Join the <span class="text-warning">Tigers Web Dev Club</span>
+            </h1>
+            <p class="lead my-4">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+              tempora molestias, vero, saepe, officiis eos repellat dolore
+              cumque possimus quo optio minima autem officia doloribus suscipit
+              minus voluptatem veniam! Eligendi ratione odio alias hic cumque
+              libero, totam minima aliquam exercitationem.
+            </p>
+          </div>
+          <img
+            src="./tiger.webp"
+            class="img-fluid rounded img-thumbnail"
+            style="height: 300px; width: 300px"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- newsLetter -->
+    <section class="bg-warning text-dark p-5">
+      <div class="d-sm-flex align-items-center justify-content-between">
+        <h3 class="mb-3 mb-md-0">Sign Up for Updates</h3>
+        <div class="input-group news-input">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Enter Your Email"
+          />
+          <button
+            class="btn btn-outline-secondary btn-dark text-white"
+            type="button"
+            id="button-addon1"
+          >
+            Button
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Boxes -->
+    <section class="p-5">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-md">
+            <div class="card bg-dark text-light">
+              <div class="card-body text-center">
+                <div class="mb-3"><i class="bi bi-laptop"></i></div>
+                <h3 class="card-title">Projects</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Repellat impedit id dolorem harum ipsa expedita nihil
+                  necessitatibus consequatur totam quas.
+                </p>
+                <a href="#" class="btn btn-warning">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card bg-dark text-light">
+              <div class="card-body text-center">
+                <div class="mb-3"><i class="bi bi-universal-access"></i></div>
+                <h3 class="card-title">About Us</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Repellat impedit id dolorem harum ipsa expedita nihil
+                  necessitatibus consequatur totam quas.
+                </p>
+                <a href="#" class="btn btn-warning">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card bg-dark text-light">
+              <div class="card-body text-center">
+                <div class="mb-3"><i class="bi bi-people"></i></div>
+                <h3 class="card-title">Developers</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Repellat impedit id dolorem harum ipsa expedita nihil
+                  necessitatibus consequatur totam quas.
+                </p>
+                <a href="#" class="btn btn-warning">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Learn Section -->
+    <section class="p-5">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md">
+            <img class="img-fluid" src="flag.webp" alt="" />
+          </div>
+          <div class="col-md p-5">
+            <h2>Tiger Pact</h2>
+            <p class="lead">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+              architecto beatae dolore soluta impedit, voluptatum fugit, placeat
+              nemo delectus quae eius non aliquam eos rerum?
+            </p>
+            <a href="#" class="btn btn-dark mt-3"><i>Read More</i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Developers -->
+    <div class="p-5 bg-warning">
+      <div class="container">
+        <h2 class="container text-center">Our Developers</h2>
+        <p class="lead text-center text-dark mb-5">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident
+          beatae nam adipisci suscipit fugit eum temporibus est in. Magni labore
+          quo ex delectus, ullam quidem deserunt quasi sapiente aut amet.
+        </p>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <img
+                  src="cub.webp"
+                  alt=""
+                  class="rounded-circle mb-3"
+                  style="height: 50px; width: 50px"
+                />
+                <h3 class="card-title mb-3">Saraha Smith</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
+                  porro, dolorum nulla sed molestiae ad?
+                </p>
+                <a href=""><i class="bi bi-twitter text-dark mx-1"></i></a>
+                <a href=""><i class="bi bi-facebook text-dark mx-1"></i></a>
+                <a href=""><i class="bi bi-github text-dark mx-1"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <img
+                  src="cub.webp"
+                  alt=""
+                  class="rounded-circle mb-3"
+                  style="height: 50px; width: 50px"
+                />
+                <h3 class="card-title mb-3">John Smith</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
+                  porro, dolorum nulla sed molestiae ad?
+                </p>
+                <a href=""><i class="bi bi-twitter text-dark mx-1"></i></a>
+                <a href=""><i class="bi bi-facebook text-dark mx-1"></i></a>
+                <a href=""><i class="bi bi-github text-dark mx-1"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <img
+                  src="cub.webp"
+                  alt=""
+                  class="rounded-circle mb-3"
+                  style="height: 50px; width: 50px"
+                />
+                <h3 class="card-title mb-3">Jane Smith</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
+                  porro, dolorum nulla sed molestiae ad?
+                </p>
+                <a href=""><i class="bi bi-twitter text-dark mx-1"></i></a>
+                <a href=""><i class="bi bi-facebook text-dark mx-1"></i></a>
+                <a href=""><i class="bi bi-github text-dark mx-1"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <img
+                  src="cub.webp"
+                  alt=""
+                  class="rounded-circle mb-3"
+                  style="height: 50px; width: 50px"
+                />
+                <h3 class="card-title mb-3">Laura Smith</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
+                  porro, dolorum nulla sed molestiae ad?
+                </p>
+                <a href=""><i class="bi bi-twitter text-dark mx-1"></i></a>
+                <a href=""><i class="bi bi-facebook text-dark mx-1"></i></a>
+                <a href=""><i class="bi bi-github text-dark mx-1"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="p-5 text-white bg-dark text-center position-relative">
+      <div class="container">
+        <p class="lead">CopyRight &copy; 2023 Bootstrap Demo</p>
+        <a href="#" class="position-absolute bottom-0 end-0 p-5"
+          ><i class="bi bi-arrow-up-circle h1"></i
+        ></a>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

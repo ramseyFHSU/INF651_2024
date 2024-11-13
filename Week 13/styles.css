@@ -1,0 +1,13 @@
+@media (min-width: 576px) {
+  .custom-img {
+    max-width: 40%; /* for small screens */
+  }
+}
+
+@media (min-width: 768px) {
+  .news-input {
+    max-width: 50%; /* for medium screens */
+  }
+}
+
+/* Adjust further for larger screens as needed */
